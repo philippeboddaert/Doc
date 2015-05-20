@@ -63,7 +63,7 @@ The function name, to call, is ***connect***.
 ###Output
 
 Example
-```
+```json
     {
     	"STATUS" : "SUCCESS", 
     	"HASH" : "4d80c957f44972b8ee5a30854cef61c5d00cfe30",
@@ -128,7 +128,7 @@ The function name, to call, is ***getuser***.
 ###Output
 
 Example
-
+```json
     {
 	    "STATUS":"SUCCESS",
 		"ID_USER":1,
@@ -152,7 +152,7 @@ Example
 			"DATE":"19/05/2015 12:48"
 			}
 	}
-
+```
 
 Description
 
@@ -201,7 +201,7 @@ The function name, to call, is ***searchusers***.
 ###Output
 
 Example
-
+```json
     {
 	    "STATUS":"SUCCESS",
 	    "USERS" : [{
@@ -227,7 +227,7 @@ Example
 				}
 			}]
 	}
-
+```
 Description
 
 | Name     | Description | Value  |
@@ -249,13 +249,13 @@ The function name, to call, is ***getstatususer***.
 ###Output
 
 Example
-
+```json
     {
 	    "STATUS":"SUCCESS",
 	    "HASH":"",
 	    "STATUS_USER":"FREE"
 	}
-
+```
 Description
 
 | Name     | Description | Value  |
@@ -299,7 +299,7 @@ The function name, to call, is ***searchresource***.
 ###Output
 
 Example
-
+```json
     {
 	    "STATUS":"SUCCESS",
 	    "RESOURCES" : [{
@@ -310,7 +310,7 @@ Example
 			"STATUS_RES" : "FREE"
 			}]
 	}
-
+```
 Description
 
 | Name     | Description | Value  |
@@ -343,11 +343,11 @@ The function name, to call, is ***statusRT***.
 ###Output
 
 Example
-
+```json
     {
 	    "STATUS":"FREE"
 	}
-
+```
 Description
 
 | Name     | Description | Value  |
@@ -387,12 +387,12 @@ The function name, to call, is ***savebooking***.
 ###Output
 
 Example
-
+```json
     {
 	    "STATUS":"SUCCESS",
 	    "LABEL":"BOOKING CREATED"
 	}
-
+```
 Description
 
 | Name     | Description | Value  |
@@ -423,7 +423,7 @@ The function name, to call, is ***getbooking***.
 ###Output
 
 Example
-
+```json
     {  
        "STATUS":"SUCCESS",
        "booking":{  
@@ -461,7 +461,7 @@ Example
           "cancellationPolicy":"120"
        }
     }
-
+```
 Description
 
 | Name     | Description | Value  |
@@ -527,12 +527,12 @@ The function name, to call, is ***updatebooking***.
 ###Output
 
 Example
-
+```json
     {
 	    "STATUS":"SUCCESS",
 	    "LABEL":"BOOKING UPDATED"
 	}
-	
+```	
 Description
 
 | Name     | Description | Value  |
@@ -562,11 +562,11 @@ The function name, to call, is ***cancelbooking***.
 ###Output
 
 Example
-
+```json
     {
 	    "STATUS":"SUCCESS"
 	}
-	
+```	
 Description
 
 | Name     | Description | Value  |
@@ -599,7 +599,7 @@ The function name, to call, is ***requestbooking***.
 ###Output
 
 Example
-
+```json
     {
     	"STATUS":"SUCCESS",
     	"BOOKINGS":[
@@ -642,7 +642,7 @@ Example
           }
        ]
     }
-	
+```	
 Description
 
 | Name     | Description | Value  |
