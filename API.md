@@ -1,7 +1,8 @@
 JOOXTER API v1.0
 ===================
 
-----------
+<div style="page-break-after: always;"></div>
+
 #Overview
 
 The Jooxter API gives developers the opportunity to interact with their Jooxter data (bookings, resources, etc.) and build third-party applications to extend the Jooxter experience.
