@@ -6,11 +6,11 @@ JOOXTER API v1.0
 
 The Jooxter API gives developers the opportunity to interact with their Jooxter data (bookings, resources, etc.) and build third-party applications to extend the Jooxter experience.
 
-##Starting
+##Getting started
 
-The Jooxter API consists of url formatted functions, which return JSON Object, easy handled with Javascript.
+The Jooxter API consists of url formatted functions, which return JSON Object, easy handled in a third-party application.
 
-##URL
+###URL
 All functions call should be made to https://app.jooxter.com/
 
 Example (For "Lookup Resource" function) :
@@ -19,7 +19,14 @@ Example (For "Lookup Resource" function) :
 
 > Please note that this may change with future releases of the API.
 
-##Response Structure
+###Authorization
+
+Jooxter ensures the safety of data access, i.e every request must contain an authorization token.
+Each user has a authorization token, attached to his Jooxter profile.
+
+To get his authorization token, a user must authentificate (See [User > Authentificate](#authentificate)).
+
+###Response Structure
 
 All Jooxter API functions are structured as JSON Object.
 
@@ -47,7 +54,7 @@ This document presents the available functions, the input parameters and the res
 
 #User
 
-##Authentification
+##Authentificate
 
 ###Function 
 
