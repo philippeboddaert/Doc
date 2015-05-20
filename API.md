@@ -52,7 +52,7 @@ Example
          }
 ```
 This document presents the available functions, the input parameters and the response structures.
-
+<div style="page-break-after: always;"></div>
 #User
 
 ##Authentificate
@@ -272,6 +272,7 @@ Description
 | **HASH** | Authentification Token of the User | (String)|
 | **STATUS_USER** | Current User Status | (See [User Status Rule](#rule))
 
+<div style="page-break-after: always;"></div>
 #Resource
 
 ##Get Info
@@ -368,6 +369,7 @@ Description
 - **BUSY** : if it exists a Booking, planned in Resource ***r***, which begins before current time and ends after current time, otherwise,
 - **FREE** : There is no Booking, planned in Resource ***r***, running at current time.
 
+<div style="page-break-after: always;"></div>
 #Booking
 
 ##Create
