@@ -1,7 +1,7 @@
 JOOXTER API v1.0
 ===================
 
-<div style="page-break-after: always;"></div>
+------------------
 
 #Overview
 
