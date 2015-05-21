@@ -5,13 +5,23 @@ JOOXTER API v1.0
 
 #Overview
 
-The Jooxter API gives developers the opportunity to interact with their Jooxter data (bookings, resources, etc.) and build third-party applications to extend the Jooxter experience.
+Jooxter gives the opportuny to easily manage collaborative resources in buildings area.
+
+The main features are :
+* Realtime visibility of resources (free, occupy...),
+* Book resources,
+* Locate and guide user to a resource.
 
 ##Getting started
 
-The Jooxter API consists of url formatted functions, which return JSON Object, easy handled in a third-party application.
+The Jooxter API gives developers the opportunity to interact with their Jooxter data (bookings, resources, etc.) and build third-party applications to extend the Jooxter experience.
+
+The Jooxter API deals with the 3 main concepts : User, Resource and Booking.
 
 ###URL
+
+The Jooxter API consists of url formatted functions, which return JSON Object, easy handled in a third-party application.
+
 All functions call should be made to https://app.jooxter.com/
 
 Example (For "Lookup Resource" function) :
